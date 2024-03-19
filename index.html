@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPRO Audifonos</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@400;900&family=Open+Sans:wght@300;400;800&family=Roboto:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedorNav">
+        <div class="contenedor navegacion-principal">
+            <img class="logo" src="img/modelo-z.svg" alt="Logo">
+            <button title="btn" id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button title="btn"class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#caracterisiticas">Caracteristicas</a></li>
+                    <li><a href="#descripcion">Descripción</a></li>
+                    <li><a href="#modelos">Modelos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="progress"></div>
+    </div>
+    
+
+        
+    </div>
+  
+    <header id="inicio" class="header">
+        
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source srcset="img/header.avif 1920w" type="image/avif">
+                    <source srcset="img/header.webp 1920w" type="image/webp">
+                    <img loading="lazy" decoding="async" width="200" height="200" src="img/header.png" alt="Imagen">
+                </picture>
+           
+            </div>
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPro</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla dolor mollitia obcaecati provident! Aliquam ullam sint officiis nulla quaerat eligendi totam, mollitia ea unde nostrum autem officia aliquid? Illum.</p>
+                <p class="precio-producto">Desde <span>299.99€</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section id="Caracteristicas" class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="Icon">
+                <h3>Gran sonido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis aliquam error eius vel sunt deleniti pariatur accusantium, porro ullam? Et consequatur omnis iste enim distinctio exercitationem magnam explicabo laudantium!</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="Icon">
+                <h3>Garantia de por vida</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis aliquam error eius vel sunt deleniti pariatur accusantium, porro ullam? Et consequatur omnis iste enim distinctio exercitationem magnam explicabo laudantium!</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="Icon">
+                <h3>+20 horas de bateria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis aliquam error eius vel sunt deleniti pariatur accusantium, porro ullam? Et consequatur omnis iste enim distinctio exercitationem magnam explicabo laudantium!</p>
+            </div>
+            
+           
+        </div>
+    </section>
+
+    <section id="descripcion" class="sobre-tech">
+        <div class="contenedor sobre-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>Sobre los <span>TechPRO</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa qui neque nisi, distinctio enim iusto blanditiis molestias. Facere expedita rerum, omnis, tempora aut non consectetur laudantium harum sunt iure voluptatibus!</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="modelos" class="contenedor modelos">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus TechPro</h2>
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">$399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="contacto" class="newsletter">
+        <div class="contenedor contenido-newsletter">
+            <div class="texto-newsletter">
+                <h2>Recibe actualizaciones</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis provident est perferendis nulla, exercitationem quo recusandae! Impedit cumque sint est vero deserunt. Perspiciatis repellat alias pariatur labore atque distinctio repudiandae.</p>
+           
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu email">
+                    </div>
+                    <input type="submit" value="Inscribirme">
+                </form>
+            </div>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <p>PRACTICANDO CSS: PROYECTO TECHPRO TERMINADO... </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
